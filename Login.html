@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Login Page</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<nav>
+			<section class="nav">
+				<a href="./index.html" class="brand">AltSchool</a>
+
+				<ul>
+					<li>
+						<a href="./index.html">Home</a>
+					</li>
+
+					<li>
+						<a href="./Contact.html">Contact</a>
+					</li>
+					<li>
+						<a href="./Register.html">Register</a>
+					</li>
+					<li>
+						<a href="./Login.html">Login</a>
+					</li>
+					<li>
+						<a href="./calculator.html"
+							>Calculator</a
+						>
+					</li>
+				</ul>
+			</section>
+		</nav>
+		<section class="login">
+			<h1>Sign In</h1>
+			<form action="">
+				<label for="name">Username*</label>
+				<input
+					type="text"
+					name="username"
+					id="name"
+					placeholder="Your Username"
+					required
+				/>
+				<label for="password">Password*</label>
+				<input
+					type="password"
+					name="password"
+					id="password"
+					placeholder="Your Password"
+					required
+				/>
+				<div class="form-sub">
+					<span
+						><input
+							type="checkbox"
+							name="true"
+							id="true"
+						/>
+						<label for="true"
+							>Remember me</label
+						></span
+					>
+				</div>
+
+				<button type="submit">SIGN IN</button>
+				<span class="login-sign-up">
+					Not a member?
+					<a href="./Register.html">Sign Up</a>
+				</span>
+			</form>
+		</section>
+	</body>
+</html>

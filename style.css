@@ -1,0 +1,296 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	background-image: linear-gradient(
+		to right,
+		rgb(13, 153, 192),
+		rgb(125, 239, 229)
+	);
+	position: relative;
+}
+.calc-num button:hover {
+	cursor: pointer;
+	background-color: white !important;
+}
+.contact button:hover,
+.login button:hover,
+.register button:hover {
+	color: black;
+}
+a {
+	text-decoration: none;
+}
+button {
+	background-color: rgb(13, 153, 192) !important;
+}
+a:hover,
+.nav a:hover {
+	color: rgb(13, 153, 192) !important;
+}
+
+.name {
+	color: rgb(13, 82, 192);
+	font-size: 1.5rem;
+}
+.brand {
+	color: rgb(13, 82, 192);
+	font-size: 20px;
+	font-weight: 600;
+	
+}
+nav {
+	background-color: white;
+}
+.nav {
+	width: 75vw;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30px;
+}
+
+.nav > ul {
+	display: flex;
+	justify-content: space-between;
+}
+.nav > ul li {
+	list-style-type: none;
+	margin: 10px;
+}
+.nav > ul li > a,
+.nav a {
+	display: flex;
+	color: black !important;
+}
+
+.logo {
+	display: flex;
+
+	width: 75vw;
+	height: 100vh;
+	margin: 40px auto;
+	background-color: white;
+
+	padding: 40px;
+	position: relative;
+}
+.logo > img {
+	width: 60%;
+	border-radius: 10px;
+	margin: 0 20px;
+	padding: 0 10% 0 0;
+}
+.logo-info {
+	width: 30%;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.logo-info > div {
+	line-height: 25px;
+}
+#about {
+	width: 75vw;
+	margin: 0 auto;
+  margin-bottom: 20px;
+	padding: 10px;
+	justify-content: space-between;
+	background-color: white;
+	color: black;
+}
+.abouts {
+	display: flex;
+	flex-wrap: wrap;
+}
+.abouts > * {
+	width: 50%;
+  
+	padding: 10px 20px;
+	line-height: 25px;
+}
+
+.contact {
+	width: fit-content;
+	margin: 20px auto;
+	background-color: white;
+	padding: 20px;
+	color: black;
+	border-radius: 20px;
+	width: 40vw;
+}
+.contact h1 {
+	text-align: center;
+	padding: 10px;
+	margin: auto;
+}
+.contact > form {
+	display: flex;
+	flex-direction: column;
+}
+.contact form > * {
+	margin-top: 20px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	outline: none;
+}
+.contact form > label {
+	color: rgb(181, 178, 178);
+}
+.contact form > button {
+	border-radius: 20px;
+	color: white;
+	width: fit-content;
+	padding: 10px 20px;
+	margin: 10px auto;
+	border: none;
+}
+#select {
+	border: 2px solid rgba(199, 165, 165, 0.699);
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	margin-top: 15px;
+}
+.login {
+	width: 40vw;
+	margin: 20px auto;
+	background-color: white;
+	padding: 20px;
+	color: black;
+	border-radius: 20px;
+}
+.login h1 {
+	text-align: center;
+	padding: 10px;
+	margin: auto;
+}
+.login > form {
+	display: flex;
+	flex-direction: column;
+}
+.login form > input {
+	margin: 5px 0 15px 0;
+	padding: 10px 5px;
+	outline: none;
+}
+
+.login form button {
+	color: white;
+	width: 100%;
+	padding: 10px 30px;
+	margin: 10px auto;
+	border: none;
+}
+.form-sub {
+	display: flex;
+	justify-content: space-between;
+}
+
+.register {
+	width: 45vw;
+  min-width: 300px;
+	margin: 20px auto;
+	background-color: white;
+	padding: 20px;
+	color: black;
+	border-radius: 20px;
+}
+
+.register h1 {
+	text-align: center;
+	padding: 10px;
+	margin: auto;
+}
+.register > form {
+	width: 100%;
+}
+.register > form input {
+	padding: 5px 10px;
+}
+.register > form select {
+	padding: 5px 10px;
+}
+.register-inputs {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.register-inputs > * {
+	margin-right: 30px;
+	margin-top: 20px;
+	outline: none;
+	width: 40%;
+	padding: 5px 10px;
+}
+
+.register form button {
+	border: none;
+	color: white;
+	width: fit-content;
+	padding: 10px 30px;
+	margin: 10px;
+	border-radius: 10px;
+}
+.register-form-sub {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.register-form-sub > * {
+	width: 50%;
+}
+
+.calc {
+	background-color: white;
+	width: 20vw;
+	margin: 20px auto;
+	padding: 10px 20px;
+	border-radius: 15px;
+}
+.calc-text {
+	display: block;
+	text-align: right;
+	padding: 10px;
+}
+.calc-text h1 {
+	color: rgb(13, 153, 192);
+}
+table {
+	width: 100%;
+}
+td {
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+	color: black;
+	background-color: rgb(13, 153, 192);
+}
+td:hover {
+	background-color: white;
+	cursor: pointer;
+}
+.symbols td {
+	border-radius: 50%;
+}
+.calc-num {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+}
+.calc-num * {
+	cursor: pointer;
+	padding: 20px;
+	border: 2px solid white;
+	width: 25%;
+}
+.span-two {
+	width: 50%;
+}

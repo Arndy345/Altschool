@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>Contact Page</title>
+	</head>
+	<body>
+		<nav>
+			<section class="nav">
+				<a href="./index.html" class="brand">AltSchool</a>
+
+				<ul>
+					<li>
+						<a href="./index.html">Home</a>
+					</li>
+
+					<li>
+						<a href="./Contact.html">Contact</a>
+					</li>
+					<li>
+						<a href="./Register.html">Register</a>
+					</li>
+					<li>
+						<a href="./Login.html">Login</a>
+					</li>
+					<li>
+						<a href="./calculator.html"
+							>Calculator</a
+						>
+					</li>
+				</ul>
+			</section>
+		</nav>
+		<section class="contact">
+			<h1>Let's Talk</h1>
+			<form action="">
+				<label for="name">Name*</label>
+				<input
+					type="text"
+					name="Name"
+					id="name"
+					placeholder="Your Name"
+					required
+				/>
+				<label for="email">Email*</label>
+				<input
+					type="email"
+					name="email"
+					id="email"
+					placeholder="Your Email"
+					required
+				/>
+				<label for="subject">Subject*</label>
+				<input
+					type="text"
+					name="subject"
+					id="subject"
+					placeholder="Your subject"
+					required
+				/>
+				<label for="select">Priority*</label>
+				<select name="priority" id="select">
+					<option value="none">
+						Please select an option
+					</option>
+					<option value="urgent">Urgent</option>
+					<option value="casual">
+						Not Urgent
+					</option>
+				</select>
+
+				<textarea
+					id="message"
+					name="message"
+					rows="4"
+					cols="50"
+					placeholder="Write your message"
+				></textarea>
+
+				<button type="submit">
+					Send message
+				</button>
+			</form>
+		</section>
+	</body>
+</html>

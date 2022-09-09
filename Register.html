@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Register Page</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<nav>
+			<section class="nav">
+				<a href="./index.html" class="brand">AltSchool</a>
+
+				<ul>
+					<li>
+						<a href="./index.html">Home</a>
+					</li>
+
+					<li>
+						<a href="./Contact.html">Contact</a>
+					</li>
+					<li>
+						<a href="./Register.html">Register</a>
+					</li>
+					<li>
+						<a href="./Login.html">Login</a>
+					</li>
+					<li>
+						<a href="./calculator.html"
+							>Calculator</a
+						>
+					</li>
+				</ul>
+			</section>
+		</nav>
+		<section class="register">
+			<h1>REGISTER</h1>
+			<form action="">
+				<div class="register-inputs">
+					<div>
+						<label for="first">First Name:</label>
+						<input
+							type="text"
+							name="first name"
+							id="first"
+							placeholder="Enter your first name"
+							required
+						/>
+					</div>
+					<div>
+						<label for="last">Last Name:</label>
+						<input
+							type="text"
+							name="last name"
+							id="last"
+							placeholder="Enter your last name"
+							required
+						/>
+					</div>
+					<div>
+						<label for="tel">Phone Number:</label>
+						<input
+							type="tel"
+							name="tel"
+							id=""
+							placeholder="Enter your phone number"
+							required
+						/>
+					</div>
+					<div>
+						<label for="gender">Gender:</label>
+						<select name="gender" id="gender">
+							<option value="none" selected>
+								Select your gender
+							</option>
+							<option value="Male">Male</option>
+							<option value="Female">
+								Female
+							</option>
+							<option value="Rather Not say">
+								Rather not say
+							</option>
+						</select>
+					</div>
+					<div>
+						<label for="country">Country:</label>
+						<input
+							type="text"
+							placeholder="What country do you reside?"
+							required
+							id="country"
+						/>
+					</div>
+					<div>
+						<label for="state"
+							>State/Province:</label
+						>
+						<input
+							type="text"
+							name=""
+							id=""
+							placeholder=" What State/Province do you reside?"
+							required
+						/>
+					</div>
+					<div>
+						<label for="username"
+							>Username:</label
+						>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter your username"
+							required
+						/>
+					</div>
+					<div>
+						<label for="password"
+							>Password:</label
+						>
+						<input
+							type="password"
+							name="password"
+							id="password"
+							placeholder="Enter your password"
+							required
+						/>
+					</div>
+					<div>
+						<label for="Confirm"
+							>Confirm your password:</label
+						>
+						<input
+							type="password"
+							name="password"
+							id=""
+							placeholder="Enter your password again"
+							required
+						/>
+					</div>
+				</div>
+
+				<div class="register-form-sub">
+					<div>
+						<input
+							type="checkbox"
+							name="check"
+							id="agree"
+							value=""
+							required
+						/>
+						<label for="agree"
+							>i agree to the Terms of User</label
+						>
+					</div>
+
+					<button type="submit">SIGN UP</button>
+				</div>
+			</form>
+			<div class="register-form-sign-in">
+				already a member?
+				<a href="./Login.html">Sign In</a>
+			</div>
+		</section>
+	</body>
+</html>
